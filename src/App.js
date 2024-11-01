@@ -24,16 +24,16 @@ function App() {
             
             <button className="button-56" id="btn2" disabled={true} 
               onClick={() => {window.location.href = '#'}}>
-              <img className="" src="\shoppe.png" alt="Loja SHOPPE"/>
-              Loja SHOPPE (EM BREVE)           
+              <img className="" src="\revista.png" alt="catálogo de produtos"/>
+              Catálogo de Produtos          
             </button>
 
             <button className="button-56" id="btn3" disabled={true} 
               onClick={() => {window.location.href = '#'}}>
-              <img className="" src="\revista.png" alt="catálogo de produtos"/>
-              Catálogo de Produtos <br></br>(EM BREVE)           
+              <img className="" src="\shoppe.png" alt="Loja SHOPPE"/>
+              Loja SHOPPE (EM BREVE)           
             </button>
-
+            
             <button className="button-56" id="btn4" disabled={true} 
               onClick={() => {window.location.href = '#'}}>
               <img className="" src="\site.png" alt="loja virtual"/>
