@@ -22,8 +22,8 @@ function App() {
               Contate nos
             </button>
             
-            <button className="button-56" id="btn2" disabled={true} 
-              onClick={() => {window.location.href = '#'}}>
+            <button className="button-56" id="btn2" disabled={false} 
+              onClick={() => {window.location.href = 'https://drive.google.com/drive/folders/1S6Fkiw63RSH_9FcSf6TYQL29Ozqf5Ru7?usp=sharing'}}>
               <img className="" src="\revista.png" alt="catálogo de produtos"/>
               Catálogo de Produtos          
             </button>
