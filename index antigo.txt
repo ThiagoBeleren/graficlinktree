@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./CSS/header.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/links.css">
+    <script async src="./JS/meus_links.js"></script>
+    <title>Meus Links</title>
+</head>
+<body>
+    <section>   
+
+        <div class="box"> 
+
+            <div class="circle"></div>
+            <span>GRAFIC</span>
+            <p>Python | JS | React </p>
+
+            <div class="links">
+                <div id="link-1" onclick="github()"> 
+                    <img src="./icons/github_icon.svg"/> 
+                    <span>Fale Conosco</span>
+                </div>
+
+                <div id="link-2" onclick="discord()">
+                    <img src="./icons/discord_icon.svg"/> 
+                    <span>Discord</span>
+                </div>
+
+                <div id="link-3" onclick="twitch()">
+                    <img src="./icons/twitch_icon.png"/> 
+                    <span>Twitch</span>
+                </div>
+
+                <div id="link-4" onclick="instagram()">
+                    <img src="./icons/instagram_icon.png"/>
+                    <span>Instagram</span>
+                </div>
+            </div>
+                <br>
+            </div>
+
+    </section>
+</body>
+</html>

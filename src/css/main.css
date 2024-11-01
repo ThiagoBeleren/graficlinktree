@@ -1,0 +1,46 @@
+/*JOST*/
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+/*SEGOE SCRIPT*/
+@import url('https://fonts.cdnfonts.com/css/segoe-script');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #e7def1;
+    text-align: center;
+}
+
+.box {
+    margin-left: auto; margin-right: auto; margin-top: 5%; margin-bottom: 5%;
+    width: 40%;
+    height: 40%;
+    padding: 20px;
+    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+    border-radius: 20px;
+    backdrop-filter: blur(14px);
+    background-color: rgba(255, 255, 255, 0.2);        
+    padding: 10px;
+    max-width: 600px;
+}
+.links {
+    margin-left: auto; margin-right: auto; margin-top: 5%; margin-bottom: 5%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.link {
+   
+    
+    cursor: pointer;
+}
