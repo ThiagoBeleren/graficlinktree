@@ -1,0 +1,25 @@
+#logo_img {
+    margin-top: 5%;
+    margin-bottom: 1%;
+    margin-left: auto; margin-right: auto;
+    border-radius: 50%;
+    display: block;
+    height: 200px;
+    width: 200px;
+    border: 5px solid #5b377c;
+}
+#grafic {
+    Font-size: 40px;
+    font-family: 'Segoe Script';
+    color: #5b377c;
+    font-weight: bold;
+}
+
+#logotipo_texto {
+    font-size: 20px;
+    font-family: jost;
+    color: #9e67bd;
+    margin-top: 10%;
+}
+
+
